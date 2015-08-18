@@ -1,0 +1,88 @@
+.email-bg {
+  background: url(gray_jean.jpg);
+  text-align: center;
+}
+#browserLink {
+  font-size: 12px;
+}
+h2, p {
+  margin: 0;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  background: white;
+  padding: 5px;
+}
+.header {
+  border: 3px double #ddd;
+  font-size: 16px;
+}
+.header img {
+  width: 70%;
+}
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0px;
+  text-align: right;
+}
+.header ul li {
+  display: inline-block;
+  border-right: 1px solid #ddd;
+  padding: 0 5px;
+}
+.header ul li:last-child {
+  border: none;
+}
+.header a {
+  text-decoration: none;
+  color: inherit;
+}
+.box {
+  text-align: left;
+  border: 3px double #ddd;
+  margin-top: 5px;
+}
+.artist-image {
+  width: calc(60% - 5px);
+  display: inline-block;
+}
+.artist-image img {
+  width: 100%;
+  height: auto;
+}
+.box-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+}
+.artist {
+  text-align: center;
+  background: #555;
+  color: white;
+  padding: 20px 5px 0px;
+  min-height: 90px;
+}
+.show-date {
+  background: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+.cta {
+  background: #000;
+  text-align: center;
+  padding: 20px 0;
+}
+.cta a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.footer {
+  background: #ddd;
+  padding: 20px;
+  margin-top: 5px;
+  font-size: 12px;
+}
